@@ -1,5 +1,6 @@
-- lc 76
-
+- lc 76 hard
+	- Time Complexity: |S|+|S|-|T|
+	- Space Complexity |S| # Editorial Section says a different time complexity, so need to check why I have a different soln.
 	#  Abstraction Model 1
 	#  A  ....   B ....   C
 	# Sliding Window maybe ? ....
@@ -21,4 +22,15 @@
 	# a < 0
 	# a = 0, b = - 1 , c = 0
 	# you wont increment the target length if something is less than 0
-	# you will decrement the target length if something is greater than equal to 0
+   	# you will decrement the target length if something is greater than equal to 0
+
+- lc 424 medium
+    # Abstraction Model 1 
+    # A B C B B B B B B A, k = 2
+    # Sliding window problem with atmost k operations 
+	# In this case our objective is to maximize the window size (sliding end pointer as far as possible).
+	# So, this can be only possible by keep a count of the individual frequency of characters and have some max frequency counter too.
+	# Because we can strech only as far as the max frequency of some character.
+	# Aha! -> so there is some condition until which we can slide.
+    # So, end - start - max_frequency <= k (Had an example in mind while doing this)
+    
