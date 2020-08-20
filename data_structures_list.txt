@@ -1,0 +1,10 @@
+Array
+Vector
+List
+Priority Queue (MinHeap, MaxHeap)
+Stack
+Set (Hashset, TreeSet, LinkedHashSet)
+Map (Hash, Tree, LinkedHash)
+Multiset/MultiMap
+Pair
+Tree (Binary tree, n-ary tree, complete tree, segment tree, red black tree, AVL tree, Trie)

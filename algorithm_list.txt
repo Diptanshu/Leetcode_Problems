@@ -1,0 +1,9 @@
+Binary Search
+Two Pointer
+BFS/DFS
+All Tree related algorithms (PreOrder, PostOrder, InOrder) and solving Tree questions with recursive and iterative way and all above mentioned Trees implementations
+Graph algorithms (Min spanning tree algorithms, Shortest path algorithms etc)
+Trie, Suffix tree
+String maniputation algorithms
+Union find algorithm (You can try different ways to find a cycle in a graph)
+Dynamic Programming patterns and algorithms
