@@ -1,3 +1,7 @@
+#graph (Each vertex has an edge to every other vertex). See https://en.wikipedia.org/wiki/Complete_graph.
+#If that's the case, we can't get away from at least scanning each edge 
+#(even if we use a set to shortcut additional work).
+#Basically this part of DFS:
 class Solution(object):
     def removeStones(self, stones):
         """
